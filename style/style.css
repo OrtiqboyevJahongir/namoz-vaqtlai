@@ -1,0 +1,66 @@
+body{
+    background-image: url(../imeges/back-img.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: url(15px);
+    
+}
+.container{
+    width: 100%;
+}
+
+.wrapper-time{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px , 1fr));
+}
+.card{
+    background: rgba(240, 248, 255, 0.212);
+    box-shadow: 1px 5px 25px 30px rgba(207, 203, 203, 0.068);
+}
+.card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 1px solid red;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+p,strong{
+    color: yellow;
+}
+.line{
+    width: 70%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: rgba(230, 243, 255, 0.527);
+    margin-bottom: 10px;
+}
+.form-select{
+    color: white;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    width: 200px;
+}
+h2,h3{
+    color: white;
+}
+
+
+
+h6{
+    margin-top: 5px;
+    color: white;;
+}
+.date{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+option{
+    color: black;
+    background-color: rgba(255, 255, 255, 0.151);
+}
